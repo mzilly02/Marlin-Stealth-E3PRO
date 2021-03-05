@@ -18,7 +18,7 @@ Custom Marlin 1.1.9 firmware with following features:
 
 5) Support for BLTouch for pin27 adapter & LINEAR_LEVELING.
 
-If you want to know exactly which modifications i've made: read "MODIFICHE_ender3Pro_MARLIN.txt".
+If you want to know exactly which modifications i've made: read "MODIFICHE_ender3Pro_MARLIN.txt" and see "MySetup.jpg".
 
 Please contribute if you have advices, thanks :)
 
