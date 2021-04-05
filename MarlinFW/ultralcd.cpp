@@ -3852,7 +3852,7 @@ void lcd_quick_feedback(const bool clear_buttons) {
       MENU_ITEM_EDIT(float52, MSG_ZPROBE_ZOFFSET, &zprobe_zoffset, Z_PROBE_OFFSET_RANGE_MIN, Z_PROBE_OFFSET_RANGE_MAX);
     #endif
 
-    #if DISABLED(SLIM_LCD_MENUS)
+    #if ENABLED(SLIM_LCD_MENUS)
 
       // M203 / M205 - Feedrate items
       MENU_ITEM(submenu, MSG_VELOCITY, lcd_control_motion_velocity_menu);
