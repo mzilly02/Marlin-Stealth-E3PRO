@@ -28,15 +28,15 @@ in configuration.h, modificare le seguenti righe:
 	#define BED_MAXTEMP 125
 	
 	HOTEND PID:
-	#define DEFAULT_Kp 24.20
-	#define DEFAULT_Ki 2.10
-	#define DEFAULT_Kd 69.89 
+	#define DEFAULT_Kp 22.05
+	#define DEFAULT_Ki 1.88
+	#define DEFAULT_Kd 64.58
 	 	
   	BED PID:
   	#define PIDTEMPBED
-	#define DEFAULT_bedKp 297.75
- 	#define DEFAULT_bedKi 58.62
- 	#define DEFAULT_bedKd 378.07
+	#define DEFAULT_bedKp 341.35
+	#define DEFAULT_bedKi 67.29
+	#define DEFAULT_bedKd 432.92
  	 	
  	#define EXTRUDE_MINTEMP 170
 	#define EXTRUDE_MAXLENGTH 400
@@ -51,7 +51,7 @@ in configuration.h, modificare le seguenti righe:
 	#define Z_DRIVER_TYPE  TMC2208_STANDALONE
 	#define E0_DRIVER_TYPE TMC2208_STANDALONE
 	
-	#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 385 }
+	#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 416.96 }
 	#define DEFAULT_MAX_FEEDRATE          { 500, 500, 5, 25 }
 	#define DEFAULT_MAX_ACCELERATION      { 500, 500, 100, 1000 }
 	
@@ -146,8 +146,8 @@ in configuration_adv.h, modificare le seguenti righe:
 	//Power Loss Recovery Creality3D
 	#define POWER_LOSS_RECOVERY
 	
-	 // This allows hosts to request long names for files and folders with M33
-	 #define LONG_FILENAME_HOST_SUPPORT
+	// This allows hosts to request long names for files and folders with M33
+	#define LONG_FILENAME_HOST_SUPPORT
 	
 	// Enable this option to scroll long filenames in the SD card menu
   	#define SCROLL_LONG_FILENAMES
