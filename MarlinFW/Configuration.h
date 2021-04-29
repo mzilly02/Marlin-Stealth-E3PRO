@@ -372,9 +372,9 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
   // Creality Ender-3
-  #define DEFAULT_Kp 24.20
-  #define DEFAULT_Ki 2.10
-  #define DEFAULT_Kd 69.89
+  #define DEFAULT_Kp 22.05
+  #define DEFAULT_Ki 1.88
+  #define DEFAULT_Kd 64.58
 
   // Ultimaker
   //#define DEFAULT_Kp 22.2
@@ -606,7 +606,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 385 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 422.70 }
 
 /**
  * Default Max Feed Rate (mm/s)
